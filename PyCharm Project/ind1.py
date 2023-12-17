@@ -4,7 +4,7 @@
 import sys
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     a = tuple(map(int, input("Введите очки команд:\n").split()))
     if len(a) != 20:
         print("Неверный размер кортежа", file=sys.stderr)
